@@ -1,0 +1,66 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+#main-title {
+    margin: 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Card styles (Box Model example) */
+.card {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+/* Highlighted card */
+.highlight {
+    border-color: #ff6600;
+    background: #fff7f0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
